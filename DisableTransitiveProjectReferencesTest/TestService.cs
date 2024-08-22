@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using ExternalLibrary;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -10,6 +11,7 @@ public class TestService(IHost host, IServiceProvider provider, ILogger<TestServ
     {
         logger.LogInformation("Starting test...");
         logger.LogInformation("Setting value = " + config["AAASetting"]);
+        logger.LogInformation(Class1.Message);
 
         await host.StopAsync(cancellationToken);
     }

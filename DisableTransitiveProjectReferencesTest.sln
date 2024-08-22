@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableTransitiveProjectReferencesTest", "DisableTransitiveProjectReferencesTest\DisableTransitiveProjectReferencesTest.csproj", "{A4E59516-1D7B-4325-95E4-9C80D05D078B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{5F44AA97-4613-437B-90A4-ACD551B27485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4E59516-1D7B-4325-95E4-9C80D05D078B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E59516-1D7B-4325-95E4-9C80D05D078B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E59516-1D7B-4325-95E4-9C80D05D078B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F44AA97-4613-437B-90A4-ACD551B27485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F44AA97-4613-437B-90A4-ACD551B27485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F44AA97-4613-437B-90A4-ACD551B27485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F44AA97-4613-437B-90A4-ACD551B27485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
