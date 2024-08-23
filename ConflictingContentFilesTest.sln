@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableTransitiveProjectReferencesTest", "DisableTransitiveProjectReferencesTest\DisableTransitiveProjectReferencesTest.csproj", "{A4E59516-1D7B-4325-95E4-9C80D05D078B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConflictingContentFilesTest", "ConflictingContentFilesTest\ConflictingContentFilesTest.csproj", "{A4E59516-1D7B-4325-95E4-9C80D05D078B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{5F44AA97-4613-437B-90A4-ACD551B27485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{5F44AA97-4613-437B-90A4-ACD551B27485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
