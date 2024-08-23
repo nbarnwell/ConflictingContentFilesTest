@@ -1,9 +1,8 @@
-﻿using ExternalLibrary;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DisableTransitiveProjectReferencesTest;
+namespace ConflictingContentFilesTest;
 
 public class TestService(IHost host, IServiceProvider provider, ILogger<TestService> logger, IConfiguration config) : IHostedService
 {
